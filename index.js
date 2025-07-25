@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: 'https://hackathon-65ad6.web.app/' }));
 app.use(express.json());
 
 // app.use("/api/budget", require("./routes/budget"));
